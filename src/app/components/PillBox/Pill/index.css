@@ -1,0 +1,22 @@
+.pill {
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin: 10px 0;
+  display: inline;
+}
+
+.pill--blue {
+  background-color: #7abcac;
+}
+
+.pill--gold {
+  background-color: #d8da79;
+}
+
+.pill--red {
+  background-color: #c29486;
+}
+
+.pill--default {
+  background-color: silver;
+}

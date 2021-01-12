@@ -1,0 +1,35 @@
+.grid-item-content {
+  text-align: justify;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: #c4c4c4;
+  margin: 10px 0;
+}
+
+.grid--item-line {
+  overflow: visible;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.grid--item-line:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 10px;
+  width: 50px;
+  background-color: #7abcac;
+}
+
+.about {
+  grid-column: 2 / span 2;
+}
+
+.experience {
+  grid-column: 1 / span 3;
+}

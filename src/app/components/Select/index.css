@@ -1,0 +1,12 @@
+select,
+option {
+  background-color: #c4c4c4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+select {
+  appearance: none;
+  padding: 0 5px;
+}

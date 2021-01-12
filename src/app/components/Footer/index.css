@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+}
+
+.contacts div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 30px;
+}
+
+.contacts p {
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contacts a:hover,
+.contacts a:active,
+.contacts a:focus {
+  color: #7abcac;
+  cursor: pointer;
+}
