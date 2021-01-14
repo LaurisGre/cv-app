@@ -1,4 +1,3 @@
-import "./index.css";
 import JobCard from "./JobCard";
 
 function ExpBox({ children }) {

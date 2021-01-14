@@ -1,4 +1,3 @@
-import "./index.css";
 
 function Link({ icon = null, text, href = '' }) {
     return <a href={href}>

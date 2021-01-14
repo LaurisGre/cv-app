@@ -1,5 +1,4 @@
 import Link from "../Link";
-import "./index.css";
 
 function FooterCard({ children }) {
     return <div>
