@@ -1,10 +1,15 @@
 import Hero from '../Hero';
 import Navigation from '../Navigation';
 
-function Header() {
+function Header({content, onChange}) {
     return <header>
-        <Navigation></Navigation>
-        <Hero></Hero>
+        <Navigation
+            content={content.navigation}
+            onChange={onChange}
+        />
+        <Hero
+            content={content.hero}
+        />
     </header>
 };
 

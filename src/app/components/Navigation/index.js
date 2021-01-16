@@ -1,19 +1,9 @@
 import Select from '../Select';
 import './index.css';
 
-function Navigation() {
-    const selectors = [{
-        value: "en",
-        children: "english",
-    },
-    {
-        value: "lt",
-        children: "lietuviškai",
-    }];
-
-
+function Navigation({ content, onChange }) {
     return <nav>
-        <Select>{selectors}</Select>
+        {<Select onChange={onChange}>{content.selectors}</Select>}
     </nav>
 }
 

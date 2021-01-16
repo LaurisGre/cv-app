@@ -1,9 +1,9 @@
 import './index.css';
 
-function Hero() {
+function Hero({ content }) {
     return <section className="hero">
-        <p className="hero-title">RODRIGO RODRIGEZ</p>
-        <p className="hero-position">MELON CARVER</p>
+        <p className="hero-title">{content.name}</p>
+        <p className="hero-position">{content.title}</p>
     </section>
 };
 

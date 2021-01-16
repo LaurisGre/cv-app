@@ -3,7 +3,7 @@ import Pill from "./Pill";
 
 function PillBox({ children = [] }) {
     return <div className="pill-box">
-        {children.map(pill => <Pill color={pill.color}>{pill.text}</Pill>)}
+        {children.map(pill => <Pill key={pill.text} color={pill.color}>{pill.text}</Pill>)}
     </div>
 }
 

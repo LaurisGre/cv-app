@@ -8,7 +8,7 @@ function JobCard({ children }) {
             <span>{children.year}</span>
         </div>
         <p className="experience-text">{children.dscr}</p>
-        <ul className="experience-list">{children.list.map(li => <li>{li}</li>)}</ul>
+        <ul className="experience-list">{children.list.map((li, i) => <li key={i}>{li}</li>)}</ul>
     </div>);
 }
 

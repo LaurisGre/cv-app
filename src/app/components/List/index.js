@@ -4,7 +4,7 @@ import "./index.css";
 
 function List({ children = [] }) {
     return <ul>
-        {children.map(li => <li>
+        {children.map(li => <li key={li.text}>
             <Link icon={li.icon} text={li.text}></Link>
         </li>)}
     </ul>
